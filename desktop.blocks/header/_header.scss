@@ -39,11 +39,12 @@
                     &:focus{
                         outline-color:  rgb(135, 135, 135);
                     }
-                    width: 469px;
+                    width: 419px;
                     height: 46px;
                     border-radius: 100px;
                     border: 2px solid rgba(221, 221, 221, 1);
                     padding-left: 50px;
+                    padding-right: 50px;
                     font-family: "RobotoRegular";
                     @extend .regular-text--m;
                     @include desktop{

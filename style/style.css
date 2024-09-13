@@ -384,11 +384,12 @@ main {
   height: 26px;
 }
 .header .header__inner .header__form .header__search .header__search-input {
-  width: 469px;
+  width: 419px;
   height: 46px;
   border-radius: 100px;
   border: 2px solid rgb(221, 221, 221);
   padding-left: 50px;
+  padding-right: 50px;
   font-family: "RobotoRegular";
 }
 .header .header__inner .header__form .header__search .header__search-input:hover {
