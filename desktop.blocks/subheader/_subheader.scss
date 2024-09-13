@@ -1,0 +1,13 @@
+.subheader{
+    border-bottom: 2px solid rgba(232, 232, 232, 1);
+    padding: 10px 0;
+    .subheader__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .subheader__info-left{
+            display: flex;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Электросити</title>
+</head>
+<body>
+    <header class="subheader hidden-mobile">
+        <div class="container">
+            <div class="subheader__inner">
+                <div class="subheader__info-left">
+                    <a  href="#" class="block-link mr-45 regular-text regular-text--dark regular-text--m">
+                        <img class="link__img" src="./static/icons/subheader/subheader.svg" alt="city">
+                        г. Рязань
+                    </a>
+                    <a href="#" class="block-link regular-text regular-text--dark regular-text--m">
+                        <img class="link__img" src="./static/icons/subheader/subheader2.svg" alt="shop">
+                        Магазины
+                    </a>
+                </div>
+                    <a href="tel:88000000000" class="block-link regular-text regular-text--dark regular-text--m">
+                        <img class="link__img" src="./static/icons/subheader/subheader3.svg" alt="phone">
+                        8 (800) 000 00 00
+                    </a>
+            </div>
+        </div>
+    </header>
+    <header class="header">
+        <div class="container">
+            <div class="header__mobile-top visible-mobile">
+                <a class="header__link" href="./index.html">
+                    <img class="header__logo" src="./static/img/logo.svg" alt="logo">
+                </a>
+                <div class="header__mobile-menu">
+                    <a class="header__mobile-link" href="#">
+                        <img class="header__mobile-img" src="./static/icons/header/header2.svg" alt="button-right">
+                    </a>
+                    <a class="header__mobile-link" href="#">
+                        <img class="header__mobile-img" src="./static/icons/subheader/subheader2.svg" alt="button-left">
+                    </a>
+                    <a class="header__mobile-link" href="#">
+                        <img class="header__mobile-img" src="./static/icons/subheader/subheader.svg" alt="menu">
+                    </a>
+                </div>
+            </div>
+            <div class="header__inner">
+                <img 
+                onclick="document.getElementById('mobile__overlay').showModal()"
+                class="header__mobile-menu visible-mobile" 
+                src="./static/icons/header/header8.svg" 
+                alt="menu"
+                >
+                <a class="header__link hidden-mobile" href="/">
+                    <img class="header__logo" src="./static/img/logo.svg" alt="logo">
+                </a>
+                <form action="#" class="header__form">
+                    <div class="header__search">
+                        <img class="header__search-img" src="./static/icons/header/header.svg" alt="search">
+                        <input class="header__search-input" placeholder="Поиск среди товаров" type="text" name="search">
+                    </div>
+                </form>
+                <nav class="nav header__nav hidden-mobile">
+                    <a class="nav__link mr-15" href="#">
+                        <div class="nav__block">
+                            <img class="nav__img" src="./static/icons/header/header1.svg" alt="">
+                            <p class="regular-text regular-text--dark regular-text--m hidden-desktop">Анастасия</p>
+                        </div>
+                    </a>
+                    <a class="nav__link mr-15" href="#">
+                        <div class="nav__block">
+                            <img class="nav__img" src="./static/icons/header/header2.svg" alt="">
+                            <p class="regular-text regular-text--dark regular-text--m hidden-desktop">Покупки</p>
+                        </div>
+                    </a>
+                    <a class="nav__link mr-15" href="#">
+                        <div class="nav__block">
+                            <img class="nav__img" src="./static/icons/header/header3.svg" alt="">
+                            <p class="regular-text regular-text--dark regular-text--m hidden-desktop">Избранное</p>
+                        </div>
+                    </a>
+                    <a class="nav__link" href="#">
+                        <div class="nav__block">
+                            <img class="nav__img" src="./static/icons/header/header4.svg" alt="">
+                            <p class="regular-text regular-text--dark regular-text--m hidden-desktop">Корзина</p>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+            <nav class="header__nav-catalog">
+                <div class="header__nav-inner">
+                    <a href="#" class="header__catalog-link header__link--active header__catalog-text regular-text regular-text--m ">
+                        <img class="header__catalog-img" src="./static/icons/header/header5.svg" alt="">
+                        Акции
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Смартфоны
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Ноутбуки
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Телевизоры
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Видеотехника
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Планшеты
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Наушники
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Гейминг
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Умные часы
+                    </a>
+                    <a href="#" class="header__catalog-link header__catalog-text regular-text regular-text--dark regular-text--m ">
+                        Моноблоки
+                    </a>
+                </div>
+                <button class="header__nav-button hidden-desktop">
+                    <img src="./static/icons/header/header6.svg" alt="button-right">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+                <section class="main__sales">
+                    <div class="main__sales-inner">
+                        <img 
+                        srcset="./static/img/main/main2x.jpg 2x, ./static/img/main/main3x.jpg 3x"
+                        class="main__sales-img" 
+                        src="./static/img/main/main.jpg" alt="">
+                        <h1 class="main__sales-header bold-text bold-text-m bold-text--dark mt-36">Скидки до 70% на товары для гейминга</h1>
+                        <p class="main__sales-text regular-text regular-text--grey regular-text--l">c 8 октября до 26 октября</p>
+                        <p class="main__sales-info regular-text regular-text--dark">В период с 8 по 26 октября не пропустите скидки до 70% товары для геймеров. Выбирайте товары из акционного списка 
+                            и при оформлении заказа укажите промокод "GAMER" для активации скидки.</p>
+                        <p class="main__sales-info regular-text regular-text--dark">Цены снижены на компьютеры, ноутбуки, ЖК мониторы, наушники, игровые кресла, геймпады, компьютерные мыши, клавиатуры, коврики для мыши.</p>
+                        <p class="main__sales-info regular-text regular-text--dark">Купите товары для геймеров со скидкой до 70%, гарантией и доставкой в интернет-магазине ЭЛЕКТРОСИТИ. Выгодные цены на товары для геймеров на electrocity.ru!</p>
+                    </img>
+                </section>
+            </div>
+    </main>
+    <dialog 
+        class="mobile-overlay visible-mobile" 
+        id="mobile__overlay"
+        >
+        <div class="mobile__inner">
+            <div class="mobile__inner-header">
+                <form class="mobile-overlay__close-btn-form" method="dialog">
+                    <button 
+                    class="mobile-overlay__close-btn"
+                    type="submit"
+                    >
+                        <!-- <img class="mobile-overlay__close-img" src="./static/icons/mobile__ovelay/mobile__overlay.svg" alt=""> -->
+                    </button>
+                </form>
+            </div>
+            <div class="mobile__inner-body">
+                <h2 class="mobile__inner-title bold-text bold-text--dark">Каталог</h2>
+                <section class="mobile__catalog">
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay1_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay1_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay1.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Ноутбуки и аксессуары</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay2_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay2_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay2.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Смартфоны и аксессуары</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay3_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay3_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay3.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Телевизоры и аксессуары</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay4_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay4_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay4.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Фото и видеотехника</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay5_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay5_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay5.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Планшеты и аксессуары</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay6_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay6_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay6.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Наушники и аудиотехника</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay7_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay7_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay7.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Гейминг</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay8_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay8_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay8.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Умные часы</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay9_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay9_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay9.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Портативная акустика</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay10_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay10_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay10.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Сетевое оборудование</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay11_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay11_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay11.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Офисная техника</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                    <a href="#" class="mobile__catalog-item">
+                            <div class="mobile__item-inner">
+                                <div class="mobile__inner-left">
+                                    <img 
+                                    srcset="./static/img/mobile__overlay/mobile__overlay12_2x.png 2x, ./static/img/mobile__overlay/mobile__overlay12_3x.png 3x"
+                                    class="mobile__inner-img" 
+                                    src="./static/img/mobile__overlay/mobile__overlay12.png" alt="pc">
+                                    <p class="regular-text regular-text--m regular-text--dark">Умный дом</p>
+                                </div>
+                                <img src="./static/icons/mobile__ovelay/mobile__ovelray1.svg" alt="">
+                            </div>
+                    </a>
+                </section>
+            </div>
+        </div>
+    </dialog>
+    <div class="mobile-bottom-menu visible-mobile">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav__block" href="#">
+                    <img class="nav__img" src="./static/icons/mobile-bottom-menu/mobile-bottom-menu.svg" alt="home">
+                    <p class="nav__text regular-text regular-text--m regular-text--dark">Главная</p>
+                </a>
+                <a class="nav__block" href="#">
+                    <img class="nav__img" src="./static/icons/mobile-bottom-menu/mobile-bottom-menu1.svg" alt="home">
+                    <p class="nav__text regular-text regular-text--m regular-text--dark">Поиск</p>
+                </a>
+                <a class="nav__block" href="#">
+                    <img class="nav__img" src="./static/icons/mobile-bottom-menu/mobile-bottom-menu2.svg" alt="home">
+                    <p class="nav__text regular-text regular-text--m regular-text--dark">Избранное</p>
+                </a>
+                <a class="nav__block" href="#">
+                    <img class="nav__img" src="./static/icons/header/header4.svg" alt="home">
+                    <p class="nav__text regular-text regular-text--m regular-text--dark">Корзина</p>
+                </a>
+                <a class="nav__block" href="#">
+                    <img class="nav__img" src="./static/icons/header/header1.svg" alt="home">
+                    <p class="nav__text regular-text regular-text--m regular-text--dark">Профиль</p>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left-block mt-36">
+                    <nav class="nav">
+                        <a class="nav__link footer__top-spacing regular-text regular-text--m regular-text--dark" href="#">
+                            Главная
+                        </a>
+                        <a class="nav__link footer__top-spacing regular-text regular-text--m regular-text--dark" href="#">
+                            Акции
+                        </a>
+                        <a class="nav__link footer__top-spacing regular-text regular-text--m regular-text--dark" href="#">
+                            Магазины
+                        </a>
+                        <a class="nav__link regular-text regular-text--m regular-text--dark" href="#">
+                            Профиль
+                        </a>
+                    </nav>
+                    <div class="footer__nav-right">
+                        <a href="tel:88000000000" class="block-link footer__top-spacing regular-text regular-text--dark regular-text--m">
+                            <img class="link__img" src="./static/icons/subheader/subheader3.svg" alt="phone">
+                            8 (800) 000 00 00
+                        </a>
+                        <a href="mailto:electrocity.ru" class="block-link regular-text regular-text--dark regular-text--m">
+                            <img class="link__img" src="./static/icons/footer/footer.svg" alt="email">
+                            electrocity.ru
+                        </a>
+                    </div>
+                    <div class="footer__social visible-mobile">
+                        <!-- <p class="footer__copyright regular-text regular-text--grey regular-text--s">© 2014-2021 «ЭЛЕКТРОСИТИ». Все права защищены</p> -->
+                            <a target="_blank" class="footer__social-link mr-12" href="https://vk.com">
+                                <img class="footer__social-img" src="./static/icons/footer/footer1.svg" alt="">
+                            </a>
+                            <a target="_blank" class="footer__social-link mr-12" href="https://youtube.com">
+                                <img class="footer__social-img" src="./static/icons/footer/footer2.svg" alt="">
+                            </a>
+                            <a target="_blank" class="footer__social-link" href="https://web.telegram.org/k/">
+                                <img class="footer__social-img" src="./static/icons/footer/footer3.svg" alt="">
+                            </a>
+                    </div>
+                    <p class="footer__copyright mt-48 regular-text regular-text--grey regular-text--s">© 2014-2021 «ЭЛЕКТРОСИТИ». Все права защищены</p>
+                </div>
+                <div class="footer__right-block mt-36">
+                    <div class="footer__nav-right">
+                        <a href="tel:88000000000" class="block-link footer__top-spacing regular-text regular-text--dark regular-text--m">
+                            <img class="link__img" src="./static/icons/subheader/subheader3.svg" alt="phone">
+                            8 (800) 000 00 00
+                        </a>
+                        <a href="mailto:electrocity.ru" class="block-link regular-text regular-text--dark regular-text--m">
+                            <img class="link__img" src="./static/icons/footer/footer.svg" alt="email">
+                            electrocity.ru
+                        </a>
+                    </div>
+                    <div class="footer__social mt-36 hidden-mobile">
+                    <!-- <p class="footer__copyright regular-text regular-text--grey regular-text--s">© 2014-2021 «ЭЛЕКТРОСИТИ». Все права защищены</p> -->
+                        <a target="_blank" class="footer__social-link mr-12" href="https://vk.com">
+                            <img class="footer__social-img" src="./static/icons/footer/footer1.svg" alt="">
+                        </a>
+                        <a target="_blank" class="footer__social-link mr-12" href="https://youtube.com">
+                            <img class="footer__social-img" src="./static/icons/footer/footer2.svg" alt="">
+                        </a>
+                        <a target="_blank" class="footer__social-link" href="https://web.telegram.org/k/">
+                            <img class="footer__social-img" src="./static/icons/footer/footer3.svg" alt="">
+                        </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

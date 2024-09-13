@@ -1,0 +1,16 @@
+@import '_variables.scss';
+@import '_normalize.scss';
+@import '_media.scss';
+@import '_utils.scss';
+@import '_fonts.scss';
+@import '_common.scss';
+@import '../desktop.blocks/nav/_nav.scss';
+@import '../desktop.blocks/subheader/subheader.block-link/_block-link.scss';
+@import '../mobile.blocks/header__mobile-top/_header__mobile-top.scss';
+@import '../mobile.blocks/mobile__overlay/_mobile__overlay.scss';
+@import '../mobile.blocks/mobile-bottom-menu/_mobile-bottom-menu.scss';
+@import '../desktop.blocks/header/_header.scss';
+@import '../desktop.blocks/subheader/_subheader.scss';
+@import '../desktop.blocks/main/_main.scss';
+@import '../desktop.blocks/footer/_footer.scss';
+

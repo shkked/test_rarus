@@ -1,0 +1,7 @@
+.block-link{
+    display: flex;
+    align-items: center;
+    & .link__img{
+        margin-right: 10px;
+    }
+}

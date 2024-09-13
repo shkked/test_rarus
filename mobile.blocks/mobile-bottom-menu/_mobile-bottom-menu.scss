@@ -1,0 +1,24 @@
+.mobile-bottom-menu{
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px -3px 13px 0px rgba(146, 146, 146, 0.25);
+    .container{
+        padding: 13px 10px;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav__block{
+        .nav__img{
+            width: 24px !important;
+            height: 24px !important;
+        }
+        .nav__text {
+            margin-top: 4px;
+            font-size: 10px;
+        }
+    }
+}

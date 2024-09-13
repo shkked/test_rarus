@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    align-items: center;
+    .nav__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .nav__img{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}

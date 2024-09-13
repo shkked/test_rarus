@@ -1,0 +1,26 @@
+.header__mobile-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .header__link{
+        margin-right: 0 !important;
+        .header__logo{
+            width: 150px;
+        }
+    }
+    .header__mobile-menu{
+        display: flex;
+        align-items: center;
+        max-width: 115px;
+        .header__mobile-link{
+            &:not(:last-child){
+                margin-right: 24px;
+            }
+            .header__mobile-img{
+                width: 24px;
+                aspect-ratio: 1;
+            }
+        }
+    }
+}
